@@ -1,0 +1,102 @@
+*/{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Times New Roman";
+}
+p.UnivHymn {
+   text-align: center;
+}
+header{
+    background-color: white;
+    margin-left: 1px;
+    display: flex;
+}
+nav{
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   z-index: 2;
+}
+nav ul{
+   color: white;
+   background-color: rgb(28, 14, 215);
+   border: 5px;
+}
+nav li{
+   color: white;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 20px;
+}
+ul li a{
+   color: white;
+   text-decoration: none;
+   padding: 10px;
+}
+a:hover{
+   background-color: rgb(22, 7, 105);
+}
+
+.info{
+    display: flex;
+    gap: 15%;
+    margin-left: 5%;
+ }
+ .course{
+    display: grid;
+    text-align: justify;
+ }
+.course img{
+    width: 40px;
+    display: grid;
+    float: left;
+    gap: 10%;
+}
+.course .image1 {
+   display: flex;
+   gap: 10%;
+}
+.course .image2 {
+   display: flex;
+   gap: 10%;
+}
+.course .image3 {
+   display: flex;
+   gap: 10%;
+}
+.course .image4 {
+   display: flex;
+   gap: 10%;
+}
+.course .image5 {
+   display: flex;
+   gap: 10%;
+}
+th {
+   background-color: rgb(28, 14, 215) ;
+   color: white;
+   padding: 1pc;
+   text-align: left;
+}
+th.space, td.space{
+   width: 75%;
+}
+
+table {
+margin-left: 10%;
+width: 80%;
+border-collapse: collapse;
+}
+tr, td {
+padding: 1%;
+}
+th, td {
+   border-bottom: 2px solid black;
+}
+tr:hover {
+   background-color: rgb(28, 14, 215);
+   color: white;
+}
